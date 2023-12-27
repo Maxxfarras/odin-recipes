@@ -100,7 +100,7 @@ ol{
     text-align: center;
     /* Box Model */
     margin: 30px auto;
-    padding: 15px;
+    padding: auto;
     border: 5px ridge black;
     /* Size */
     box-sizing: border-box;
