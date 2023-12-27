@@ -12,7 +12,11 @@
     /* Box model */
     padding: 15px;
     border: 15px ridge black;
-    margin: 15px;
+    margin: 15px auto;
+    /* Size */
+    width: 1250px;
+    height: 250px;
+    box-sizing: border-box;
 }
 
 .button {
