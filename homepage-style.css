@@ -1,6 +1,7 @@
 * {
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0px;
 }
 
 .title {
@@ -10,14 +11,21 @@
     color: white;
     /* Box model */
     padding: 15px;
-    border: 15px dotted white;
+    border: 15px ridge black;
     margin: 15px;
-    /* Size */
 }
 
 .button {
-    background-color: rgb(201, 212, 96);
+    /* Style */
+    background-color: #e4f73c;
     font-weight: 700;
     font-size: 50px;
+    /* Box Model */
     margin: 30px;
+    padding: 15px;
+    border: 15px ridge black;
+    /* Size */
+    box-sizing: border-box;
+    width: 500px;
+    height: 125px;
 }
