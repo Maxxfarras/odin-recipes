@@ -3,20 +3,13 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.card {
-    margin: 25px;
-    padding: 25px;
-}
-
-h1 {
+.title {
     font-size: 150px;
     background-color: rgb(95, 142, 196);
     color: white;
     display: inline;
     padding: 15px;
-    border-color: white;
-    border: 15px;
-    border-style: dotted;
+    border: 15px dotted white;
 }
 
 .button {
