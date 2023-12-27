@@ -4,12 +4,15 @@
 }
 
 .title {
+    /* Style */
     font-size: 150px;
     background-color: rgb(95, 142, 196);
     color: white;
-    display: inline;
+    /* Box model */
     padding: 15px;
     border: 15px dotted white;
+    margin: 15px;
+    /* Size */
 }
 
 .button {
