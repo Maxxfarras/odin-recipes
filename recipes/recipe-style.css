@@ -1,19 +1,31 @@
 * {
+    /* Style */
     font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    /* Box model */
+    margin: 0px;
 }
 
-h1 {
-    text-align: center;
-    background-color: red;
+.title.main {
+    /* Style */
+    font-size: 100px;
+    background-color: rgb(95, 142, 196);
     color: white;
-    font-size: 75px;
+    font-weight: bold;
+    /* Box model */
+    padding: auto 15px;
+    border: 15px ridge black;
+    margin: 15px auto;
+    text-align: center;
+    /* Size */
+    width: 1000px;
+    height: 150px;
+    box-sizing: border-box;
 }
 
 img {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 20px auto;
     height: auto;
     width: 300px;
 }
